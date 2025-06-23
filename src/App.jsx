@@ -5,7 +5,6 @@ import HomePage from './pages/HomePage.jsx';
 import AboutPage from './pages/AboutPage.jsx';
 import ContactPage from './pages/ContactPage.jsx';
 import { Cloud } from 'lucide-react';
-import './App.css';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
